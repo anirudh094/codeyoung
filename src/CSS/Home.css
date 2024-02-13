@@ -1,0 +1,98 @@
+.home-banner {
+  background: url(https://www.codeyoung.com/_nuxt/img/maths-hero.813b295.png)
+      right 30px no-repeat,
+    url(https://www.codeyoung.com/_nuxt/img/background-pattern1.fa2aeb6.png)
+      right 0 top 0 no-repeat;
+}
+.home-banner-body {
+  padding: 100px 5%;
+}
+.home-banner-body h1 {
+  font-size: 60px;
+  color: #474747;
+  font-weight: 650;
+  width: 40%;
+  margin-bottom: 40px;
+}
+.home-banner-body p {
+  color: #3f3f3f;
+  font-weight: 600;
+  font-size: 20px;
+  width: 40%;
+  margin-bottom: 40px;
+}
+.book-free-trial-class {
+  background-color: #ff712d;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  padding: 14px 66px;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.home-explore {
+  display: flex;
+  margin-bottom: 50px;
+}
+.home-explore button {
+  background-color: white;
+  border: 0;
+  color: #ff712d;
+  padding: 15px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #e7e7e7;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.home-explore button img {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 720px) {
+  .book-free-trial-class {
+    display: none;
+  }
+  .home-banner {
+    background: url(https://www.codeyoung.com/_nuxt/img/codeyoung_home_illus_mob.0cc20b7.png)
+        left 0px top 20px no-repeat,
+      url(https://www.codeyoung.com/_nuxt/img/background-pattern-mweb.09a9f83.png)
+        right 0 top 0 no-repeat;
+    background-position: 35% 30%;
+  }
+  .home-banner-body {
+    padding: 100px 20px 10px;
+  }
+  .home-banner-body h1 {
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    margin-top: 420px !important;
+  }
+  .home-banner-body p {
+    font-size: 25px;
+    width: 100%;
+  }
+  .home-explore {
+    display: block;
+  }
+  .home-explore button {
+    width: 95%;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .home-explore button img {
+    height: 18px;
+  }
+}
