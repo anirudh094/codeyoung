@@ -1,3 +1,5 @@
+/* Feature 1 */
+
 .home-banner {
   background: url(https://www.codeyoung.com/_nuxt/img/maths-hero.813b295.png)
       right 30px no-repeat,
@@ -50,6 +52,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  justify-content: space-around;
 }
 .home-explore button img {
   margin-right: 8px;
@@ -95,4 +98,68 @@
   .home-explore button img {
     height: 18px;
   }
+}
+
+/* Feature 2 */
+
+.feature2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 40px auto;
+  justify-content: space-evenly;
+}
+.feature2 div {
+  border-radius: 20px;
+  box-shadow: 0 0 10px #e7e7e7;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin-bottom: 35px;
+}
+.feature2 div img {
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  height: 90px;
+}
+.stem-org {
+  background-color: #ffeee8;
+}
+.gsv-cup {
+  background-color: #eaf3ff;
+}
+
+/* Feature 3 */
+
+.feature3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 100px auto;
+  justify-content: space-evenly;
+}
+.feature3-divider {
+  border-right: 2px solid #000;
+  opacity: 0.1;
+  margin: 0px 20px;
+  margin-bottom: 50px;
+}
+.feature3-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.feature3-stats h6 {
+  font-size: 36px;
+  margin: 10px;
+}
+.feature3-stats p {
+  font-size: 20px;
+  color: #ae8623;
 }
