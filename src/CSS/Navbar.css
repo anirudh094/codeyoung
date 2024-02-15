@@ -2,7 +2,8 @@
   padding: 10px 46px;
   background-color: #ffffff !important;
   position: sticky !important;
-  top: 0;
+  top: 62px;
+  z-index: 1;
 }
 .rs-navbar-brand {
   height: 0px !important;
@@ -39,4 +40,33 @@
 .free-trial-btn {
   color: #ffffff;
   background-color: #ff712d;
+}
+
+.navbar-small{
+  display: none;
+}
+@media screen and (max-width: 1100px){
+  .navbar-big{
+    display: none;
+  }
+  .navbar-small{
+    display: block;
+  }
+  .side-nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .free-trial-btn{
+    margin-top: 20px;
+  }
+  .rs-stack-item{
+    background-color: transparent !important;
+  }
+  .rs-stack-item svg{
+    color: #FF712D !important;
+  }
+  .rs-navbar-brand{
+    margin-top: -12px;
+  }
 }

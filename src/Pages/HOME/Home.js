@@ -1,9 +1,10 @@
 import React from "react";
-import "../CSS/Home.css";
+import "../../CSS/Home.css";
 import { Icon } from "semantic-ui-react";
 import WorkingCY from "./WorkingCY";
 import ProcessCY from "./ProcessCY";
-import Navbaar from "./Navbar";
+import Navbaar from "../Navbar";
+import CYpath from "./CYpath";
 
 function Home() {
   return (
@@ -94,6 +95,7 @@ function Home() {
 
       <WorkingCY />
       <ProcessCY />
+      <CYpath/>
     </>
   );
 }

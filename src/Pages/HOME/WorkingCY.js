@@ -1,5 +1,5 @@
 import React from 'react'
-import "../CSS/WorkingCY.css";
+import "../../CSS/WorkingCY.css";
 
 function WorkingCY() {
   return (

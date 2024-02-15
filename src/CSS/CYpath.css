@@ -1,0 +1,66 @@
+.cypath-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 100px 0px;
+    align-items: center;
+}
+.cypath-body img{
+    width: 600px;
+}
+.cypath-body-content h2{
+    font-size: 40px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.cypath-body-content p{
+    font-size: 20px;
+    width: 400px;
+    color: rgba(63, 63, 63,);
+    margin-bottom: 40px !important;
+}
+@media screen and (max-width: 720px){
+    .cypath-body img{
+        width: 70%;
+    }
+    .cypath-body-content h2{
+        font-size: 40px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .cypath-body-content p{
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.cystem-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    background-color: #FFF1EB;
+}
+.cystem-body-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.cystem-body-content p{
+    font-size: 20px;
+}
+.tick-icon{
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.cystem-body-img{
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
