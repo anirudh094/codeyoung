@@ -5,6 +5,7 @@ import WorkingCY from "./WorkingCY";
 import ProcessCY from "./ProcessCY";
 import Navbaar from "../Navbar";
 import CYpath from "./CYpath";
+import CodingCourse from "../CodingCourses/CodingCourse"
 
 function Home() {
   return (
@@ -96,6 +97,7 @@ function Home() {
       <WorkingCY />
       <ProcessCY />
       <CYpath/>
+      <CodingCourse/>
     </>
   );
 }
