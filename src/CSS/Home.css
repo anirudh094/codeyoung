@@ -1,5 +1,23 @@
-/* Feature 1 */
+.advertise-top-box {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  padding: 3px 0px;
+  background: url(https://www.codeyoung.com/_nuxt/img/math_nav_bar.0d9a54c.svg);
+  position: sticky !important;
+  top: 0;
+}
+.advertise-top-box a {
+  color: #0D6EFD;
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px; 
+  border-bottom-color: white;
+  width: fit-content;
+}
 
+/* Feature 1 */
 .home-banner {
   background: url(https://www.codeyoung.com/_nuxt/img/maths-hero.813b295.png)
       right 30px no-repeat,
@@ -149,11 +167,11 @@
   margin: 0px 20px;
   margin-bottom: 50px;
 }
-.feature3-stats{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
+.feature3-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
 }
 .feature3-stats h6 {
   font-size: 36px;

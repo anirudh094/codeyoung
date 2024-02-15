@@ -1,0 +1,42 @@
+.rs-navbar {
+  padding: 10px 46px;
+  background-color: #ffffff !important;
+  position: sticky !important;
+  top: 0;
+}
+.rs-navbar-brand {
+  height: 0px !important;
+  padding: 0px !important;
+  margin-top: -6px;
+}
+.rs-navbar-item {
+  font-size: 16px !important;
+  color: black !important;
+  font-weight: 600 !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.nav-underline:hover {
+  border-bottom-style: solid !important;
+  border-bottom-width: 5px !important;
+  border-bottom-color: #ffeb00 !important;
+  width: fit-content !important;
+}
+.login-btn,
+.free-trial-btn {
+  width: 120px;
+  height: 44px;
+  font-size: 16px;
+  border-radius: 5px !important;
+  font-weight: 600;
+  box-shadow: 0 4px 4px rgba(255, 113, 45, 0.2) !important;
+}
+.login-btn {
+  margin: 0px 24px;
+  color: #ff712d;
+  background-color: #ffffff !important;
+  border: #ff712d solid 2px;
+}
+.free-trial-btn {
+  color: #ffffff;
+  background-color: #ff712d;
+}

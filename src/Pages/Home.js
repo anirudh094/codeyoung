@@ -3,12 +3,20 @@ import "../CSS/Home.css";
 import { Icon } from "semantic-ui-react";
 import WorkingCY from "./WorkingCY";
 import ProcessCY from "./ProcessCY";
-import Navbar from "./Navbar";
+import Navbaar from "./Navbar";
 
 function Home() {
   return (
     <>
-      <Navbar />
+      <div className="advertise-top-box">
+        <img src="https://www.codeyoung.com/_nuxt/img/new_gif.a210875.gif" alt="logo"></img>
+        Codeyoung is now starting Math classes for all grades! <a href="/">Click here</a> for enquiry
+      </div>
+
+      
+      <Navbaar />
+
+
       {/* Feature 1 */}
       <div className="home-banner">
         <div className="home-banner-body">
