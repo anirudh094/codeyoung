@@ -3,7 +3,7 @@
   background-color: #ffffff !important;
   position: sticky !important;
   top: 62px;
-  z-index: 1;
+  z-index: 5;
 }
 .rs-navbar-brand {
   height: 0px !important;

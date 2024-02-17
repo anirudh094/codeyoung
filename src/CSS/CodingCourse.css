@@ -1,0 +1,32 @@
+.coding-course-body{
+    padding: 100px 40px;
+}
+.coding-course-body h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.coding-course-body p{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 40px;
+}
+.coding-course-btn{
+    border: 2px solid rgba(0,0,0,.1);
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.coding-course-btn button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0,0,0,.6);
+}
+#grd1-2{
+    background-color: #FFF0CC;
+}

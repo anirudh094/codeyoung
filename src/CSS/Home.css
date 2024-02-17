@@ -7,7 +7,7 @@
   background: url(https://www.codeyoung.com/_nuxt/img/math_nav_bar.0d9a54c.svg);
   position: sticky !important;
   top: 0;
-  z-index: 1;
+  z-index: 5;
 }
 .advertise-top-box a {
   color: #0D6EFD;
