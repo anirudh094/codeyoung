@@ -1,5 +1,5 @@
 .coding-course-body{
-    padding: 100px 40px;
+    padding: 100px 40px 0px;
     text-align: center;
 }
 .coding-course-body h2{
@@ -35,10 +35,9 @@
     background-color: #ff712d;
     border: 0px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 15px !important;
     color: white;
     padding: 14px 32px;
-    text-decoration: underline;
     font-size: 20px;
     cursor: pointer;
     margin: 40px auto;

@@ -1,0 +1,37 @@
+.sandbox-body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.sandbox-body-content-img{
+    max-width: 500px;
+    width: 90vw;
+}
+.sandbox-body-content{
+    width: 500px;
+}
+.sandbox-body-content div{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.sandbox-body-content-p{
+    text-align: center !important;
+}
+.sandbox-body-content span{
+    margin-right: 10px;
+}
+
+.explore-sandbox-btn button{
+    background-color: #ff712d;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 15px !important;
+    color: white;
+    padding: 14px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0px !important;
+}

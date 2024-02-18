@@ -1,0 +1,12 @@
+.carousel-body{
+    width: 90%;
+    margin: 0px auto 100px !important;
+}
+
+.custom-slider,.custom-slider img{
+    height: 200px !important;
+}
+
+.rs-carousel-label{
+    display: none;
+}

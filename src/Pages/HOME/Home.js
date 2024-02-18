@@ -6,7 +6,8 @@ import ProcessCY from "./ProcessCY";
 import Navbaar from "../Navbar";
 import CYpath from "./CYpath";
 import CodingCourse from "../CodingCourses/CodingCourse"
-
+import Sandbox from "./Sandbox";
+import CarouselBanner from "./Carousel";
 function Home() {
   return (
     <>
@@ -93,11 +94,12 @@ function Home() {
           <p>country presence</p>
         </div>
       </div>
-
+      <CarouselBanner />
       <WorkingCY />
       <ProcessCY />
       <CYpath/>
       <CodingCourse/>
+      <Sandbox/>
     </>
   );
 }
