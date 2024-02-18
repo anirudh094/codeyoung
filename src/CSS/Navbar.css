@@ -1,9 +1,12 @@
 .rs-navbar {
   padding: 10px 46px;
-  background-color: #ffffff !important;
+  background-color: #FFF6E0 !important;
   position: sticky !important;
   top: 62px;
   z-index: 5;
+}
+.navbar-color-change{
+  background-color: #ffffff !important;
 }
 .rs-navbar-brand {
   height: 0px !important;
@@ -36,6 +39,7 @@
   color: #ff712d;
   background-color: #ffffff !important;
   border: #ff712d solid 2px;
+  background: transparent !important;
 }
 .free-trial-btn {
   color: #ffffff;

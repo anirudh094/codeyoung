@@ -56,14 +56,14 @@ function Development() {
                   </div>
                 </div>
                 <div className="courses-body-box-3-content">
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/responsive.28653cb.png"
                       alt="logo"
                     ></img>
                     <span>5 Responsive webpages</span>
                   </div>
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/full-stack.caeedec.png"
                       alt="logo"
@@ -72,14 +72,14 @@ function Development() {
                   </div>
                 </div>
                 <div className="courses-body-box-3-content">
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/standard_app_active.a7a9eec.png"
                       alt="logo"
                     ></img>
                     <span>4 Standard applications</span>
                   </div>
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/industry_app_active.88ed9bb.png"
                       alt="logo"
@@ -90,14 +90,14 @@ function Development() {
                 <hr></hr>
                 <h3>Course Add-ons</h3>
                 <div className="courses-body-box-3-content">
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/speaker.b95771f.png"
                       alt="logo"
                     ></img>
                     <span>5 Code-talk sessions</span>
                   </div>
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/stars.add9117.png"
                       alt="logo"
@@ -106,7 +106,7 @@ function Development() {
                   </div>
                 </div>
                 <div className="courses-body-box-3-content">
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/wheel.b1904aa.png"
                       alt="logo"
@@ -186,14 +186,14 @@ function Development() {
                   </div>
                 </div>
                 <div className="courses-body-box-3-content">
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/standard_app_active.a7a9eec.png"
                       alt="logo"
                     ></img>
                     <span>4 Standard applications</span>
                   </div>
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/industry_app_active.88ed9bb.png"
                       alt="logo"
@@ -211,7 +211,7 @@ function Development() {
                     ></img>
                     <span>5 Code-talk sessions</span>
                   </div>
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/stars.add9117.png"
                       alt="logo"
@@ -220,7 +220,7 @@ function Development() {
                   </div>
                 </div>
                 <div className="courses-body-box-3-content">
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/wheel.b1904aa.png"
                       alt="logo"
@@ -307,7 +307,7 @@ function Development() {
                     ></img>
                     <span>4 Standard applications</span>
                   </div>
-                  <div  className="opacity">
+                  <div className="opacity">
                     <img
                       src="https://www.codeyoung.com/_nuxt/img/industry_app_active.88ed9bb.png"
                       alt="logo"

@@ -4,7 +4,7 @@ import Scratch from "./Scratch";
 import MITAppIn from "./MITAppIn";
 import Development from "./Development";
 import Python from "./Python";
-import "../../CSS/CodingCourse.css"
+import "../../CSS/CodingCourse.css";
 
 function CodingCourse() {
   const [grade1to2, setGrade1to2] = useState(true);
@@ -59,10 +59,18 @@ function CodingCourse() {
         <h2>Multiple Online Coding Courses, for kids of all Grades</h2>
         <p>Choose from coding courses fit for ages 5-17.</p>
         <div className="coding-course-btn">
-          <button onClick={showgrade1to2} id="grd1-2">Grade 1 - 2</button>
-          <button onClick={showgrade3to5} id="grd3-5">Grade 3 - 5</button>
-          <button onClick={showgrade6to8} id="grd6-8">Grade 6 - 8</button>
-          <button onClick={showgrade9plus} id="grd9">Grade 9+</button>
+          <button onClick={showgrade1to2} id="grd1-2">
+            Grade 1 - 2
+          </button>
+          <button onClick={showgrade3to5} id="grd3-5">
+            Grade 3 - 5
+          </button>
+          <button onClick={showgrade6to8} id="grd6-8">
+            Grade 6 - 8
+          </button>
+          <button onClick={showgrade9plus} id="grd9">
+            Grade 9+
+          </button>
         </div>
 
         {grade1to2 ? (
@@ -96,6 +104,10 @@ function CodingCourse() {
         ) : (
           <></>
         )}
+
+        <button className="explore-math-courses-p">
+          Explore Math Courses
+        </button>
       </div>
     </>
   );

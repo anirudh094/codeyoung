@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "../CSS/Navbar.css";
 import "rsuite/dist/rsuite.min.css";
 import { Navbar, Nav } from "rsuite";
@@ -15,9 +15,20 @@ function Navbaar() {
     setSize(value);
     setOpen(true);
   };
+
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 10) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
   return (
     <>
-      <Navbar className="sticky">
+      <Navbar className={colorChange ? "sticky navbar-color-change" : "sticky"}>
         <Navbar.Brand href="#">
           <img
             className="company-logo"

@@ -2,6 +2,7 @@
 
 .accordion {
   --bs-accordion-btn-icon-width: 3rem;
+  margin-bottom: 20px;
 }
 .accordion-item {
   background-color: #f0f8ff !important;
@@ -38,10 +39,11 @@
 }
 .courses-body {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 500px));
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   padding: 10px;
+  justify-content: center;
 }
 .courses-body-box{
     background-color: white;
@@ -68,12 +70,13 @@
 .courses-body-box-1 div:nth-child(1){
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .courses-body-box-1 div:nth-child(1) img{
     width: 50px;
 }
-
+.courses-body-box-1 div:nth-child(1) p{
+    margin-left: 85px;
+}
 .courses-body-box-2{
     display: flex;
     background-color: #F0F8FF;
