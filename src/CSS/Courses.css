@@ -32,8 +32,6 @@
 .accordion-button:not(.collapsed) {
   box-shadow: 0 0 0 0 !important;
 }
-
-
 .opacity{
     opacity: 0.3;
 }

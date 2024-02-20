@@ -1,4 +1,5 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../CSS/Navbar.css";
 import "rsuite/dist/rsuite.min.css";
 import { Navbar, Nav } from "rsuite";
@@ -29,25 +30,47 @@ function Navbaar() {
   return (
     <>
       <Navbar className={colorChange ? "sticky navbar-color-change" : "sticky"}>
-        <Navbar.Brand href="#">
-          <img
-            className="company-logo"
-            src="https://www.codeyoung.com/_nuxt/img/codeyoung-logo.4c8144c.svg"
-            alt="logo"
-          ></img>
+        <Navbar.Brand>
+          <Link to={"/"} className="no-decoration">
+            <img
+              className="company-logo"
+              src="https://www.codeyoung.com/_nuxt/img/codeyoung-logo.4c8144c.svg"
+              alt="logo"
+            ></img>
+          </Link>
         </Navbar.Brand>
         <Nav pullRight className="navbar-big">
-          <Nav.Item className="nav-underline">About</Nav.Item>
+          <Nav.Item className="nav-underline">
+            <Link to={"/about"} className="no-decoration">
+              About
+            </Link>
+          </Nav.Item>
           <Nav.Menu title="View Courses" trigger={["click", "hover"]}>
-            <Nav.Item>Maths</Nav.Item>
-            <Nav.Item>Coding</Nav.Item>
+            <Nav.Item>
+              <Link to={"/maths"} className="no-decoration">
+                Maths
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link to={"/courses"} className="no-decoration">
+                Coding
+              </Link>
+            </Nav.Item>
           </Nav.Menu>
           <Nav.Menu title="Explore" trigger={["click", "hover"]}>
             <Nav.Item>Trainers</Nav.Item>
             <Nav.Item>Student Project</Nav.Item>
           </Nav.Menu>
-          <Nav.Item className="nav-underline">Sandbox</Nav.Item>
-          <Nav.Item className="nav-underline">Blogs</Nav.Item>
+          <Nav.Item className="nav-underline">
+            <Link to={"/sandbox"} className="no-decoration">
+              Sandbox
+            </Link>
+          </Nav.Item>
+          <Nav.Item className="nav-underline">
+            <Link to={"/blogs"} className="no-decoration">
+              Blogs
+            </Link>
+          </Nav.Item>
           <button className="login-btn">Login</button>
           <button className="free-trial-btn">Free Trial</button>
         </Nav>
@@ -63,17 +86,38 @@ function Navbaar() {
           <Drawer size={size} open={open} onClose={() => setOpen(false)}>
             <Drawer.Body>
               <Nav className="side-nav-bar">
-                <Nav.Item className="nav-underline">About</Nav.Item>
+                <Nav.Item className="nav-underline">
+                  <Link to={"/about"} className="no-decoration">
+                    About
+                  </Link>
+                </Nav.Item>
                 <Nav.Menu title="View Courses" trigger={["click", "hover"]}>
-                  <Nav.Item>Maths</Nav.Item>
-                  <Nav.Item>Coding</Nav.Item>
+                  <Nav.Item>
+                    <Link to={"/maths"} className="no-decoration">
+                      Maths
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    {" "}
+                    <Link to={"/courses"} className="no-decoration">
+                      Coding
+                    </Link>
+                  </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu title="Explore" trigger={["click", "hover"]}>
                   <Nav.Item>Trainers</Nav.Item>
                   <Nav.Item>Student Project</Nav.Item>
                 </Nav.Menu>
-                <Nav.Item className="nav-underline">Sandbox</Nav.Item>
-                <Nav.Item className="nav-underline">Blogs</Nav.Item>
+                <Nav.Item className="nav-underline">
+                  <Link to={"/sandbox"} className="no-decoration">
+                    Sandbox
+                  </Link>
+                </Nav.Item>
+                <Nav.Item className="nav-underline">
+                  <Link to={"/blogs"} className="no-decoration">
+                    Blogs
+                  </Link>
+                </Nav.Item>
                 <button className="login-btn">Login</button>
                 <button className="free-trial-btn">Free Trial</button>
               </Nav>

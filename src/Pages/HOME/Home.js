@@ -3,7 +3,7 @@ import "../../CSS/Home.css";
 import { Icon } from "semantic-ui-react";
 import WorkingCY from "./WorkingCY";
 import ProcessCY from "./ProcessCY";
-import Navbaar from "../Navbar";
+//import Navbaar from "../Navbar";
 import CYpath from "./CYpath";
 import CodingCourse from "../CodingCourses/CodingCourse"
 import Sandbox from "./Sandbox";
@@ -11,13 +11,13 @@ import CarouselBanner from "./Carousel";
 function Home() {
   return (
     <>
-      <div className="advertise-top-box">
+      {/* <div className="advertise-top-box">
         <img src="https://www.codeyoung.com/_nuxt/img/new_gif.a210875.gif" alt="logo"></img>
         Codeyoung is now starting Math classes for all grades! <a href="/">Click here</a> for enquiry
-      </div>
+      </div> */}
 
       
-      <Navbaar />
+      {/* <Navbaar /> */}
 
 
       {/* Feature 1 */}

@@ -2,7 +2,7 @@
   padding: 10px 46px;
   background-color: #FFF6E0 !important;
   position: sticky !important;
-  top: 62px;
+  top: 0px;
   z-index: 5;
 }
 .navbar-color-change{
@@ -24,6 +24,10 @@
   border-bottom-width: 5px !important;
   border-bottom-color: #ffeb00 !important;
   width: fit-content !important;
+}
+.no-decoration,.no-decoration:hover,.no-decoration:focus{
+  color: black;
+  text-decoration: none;
 }
 .login-btn,
 .free-trial-btn {
