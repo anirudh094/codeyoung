@@ -46,20 +46,20 @@ function Navbaar() {
             </Link>
           </Nav.Item>
           <Nav.Menu title="View Courses" trigger={["click", "hover"]}>
-            <Nav.Item>
+            <Nav.Item className="nav-underline">
               <Link to={"/maths"} className="no-decoration">
                 Maths
               </Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="nav-underline">
               <Link to={"/courses"} className="no-decoration">
                 Coding
               </Link>
             </Nav.Item>
           </Nav.Menu>
           <Nav.Menu title="Explore" trigger={["click", "hover"]}>
-            <Nav.Item>Trainers</Nav.Item>
-            <Nav.Item>Student Project</Nav.Item>
+            <Nav.Item className="nav-underline">Trainers</Nav.Item>
+            <Nav.Item className="nav-underline">Student Project</Nav.Item>
           </Nav.Menu>
           <Nav.Item className="nav-underline">
             <Link to={"/sandbox"} className="no-decoration">
@@ -71,8 +71,12 @@ function Navbaar() {
               Blogs
             </Link>
           </Nav.Item>
-          <button className="login-btn">Login</button>
-          <button className="free-trial-btn">Free Trial</button>
+          <Link to={"/login"} className="no-decoration">
+            <button className="login-btn">Login</button>
+          </Link>
+          <Link to={"/freetrial"} className="no-decoration">
+            <button className="free-trial-btn">Free Trial</button>
+          </Link>
         </Nav>
         <Nav pullRight className="navbar-small">
           <ButtonToolbar>
@@ -92,12 +96,12 @@ function Navbaar() {
                   </Link>
                 </Nav.Item>
                 <Nav.Menu title="View Courses" trigger={["click", "hover"]}>
-                  <Nav.Item>
+                  <Nav.Item className="nav-underline">
                     <Link to={"/maths"} className="no-decoration">
                       Maths
                     </Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item className="nav-underline">
                     {" "}
                     <Link to={"/courses"} className="no-decoration">
                       Coding
@@ -105,8 +109,8 @@ function Navbaar() {
                   </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu title="Explore" trigger={["click", "hover"]}>
-                  <Nav.Item>Trainers</Nav.Item>
-                  <Nav.Item>Student Project</Nav.Item>
+                  <Nav.Item className="nav-underline">Trainers</Nav.Item>
+                  <Nav.Item className="nav-underline">Student Project</Nav.Item>
                 </Nav.Menu>
                 <Nav.Item className="nav-underline">
                   <Link to={"/sandbox"} className="no-decoration">
@@ -118,8 +122,12 @@ function Navbaar() {
                     Blogs
                   </Link>
                 </Nav.Item>
-                <button className="login-btn">Login</button>
-                <button className="free-trial-btn">Free Trial</button>
+                <Link to={"/login"} className="no-decoration">
+                  <button className="login-btn">Login</button>
+                </Link>
+                <Link to={"/freetrial"} className="no-decoration">
+                  <button className="free-trial-btn">Free Trial</button>
+                </Link>
               </Nav>
             </Drawer.Body>
           </Drawer>

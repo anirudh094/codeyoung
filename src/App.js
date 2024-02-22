@@ -8,6 +8,8 @@ import Sandbox from "./Pages/HOME/Sandbox";
 import About from "./Pages/About";
 import Blogs from "./Pages/Blogs";
 import Maths from "./Pages/MathsCourses/Maths"
+import FreeTrial from "./Pages/FreeTrial";
+import Login from "./Pages/Login";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/maths" element={<Maths />} />
+          <Route path="/freetrial" element={<FreeTrial />} />
+          <Route path="/login" element={<Login />} />
+
         </Routes>
       </Router>
     </div>
