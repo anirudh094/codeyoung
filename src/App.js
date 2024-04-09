@@ -10,6 +10,7 @@ import Blogs from "./Pages/Blogs";
 import Maths from "./Pages/MathsCourses/Maths"
 import FreeTrial from "./Pages/FreeTrial";
 import Login from "./Pages/Login";
+import Footer from "./Pages/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/login" element={<Login />} />
 
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
